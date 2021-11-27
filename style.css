@@ -830,18 +830,18 @@ footer{
     }
 
     .question{
-        padding-top: 100px;
+        padding-top: 50px;
     }
 
     .question_button{
-        width: 160px;
+        width: 190px;
         font-size: 14px;
         margin: 0 0 15px 0;
         padding: 0 0 0 0;
     }
 
     .warring_for_user_footer{
-        width: 160px;
+        width: 190px;
         order: 1;
         margin: 0 0 0 0;
         padding: 0 0 0 0;
@@ -966,7 +966,7 @@ footer{
     }
 
     .button_user_info{
-        width: 130px;
+        width: 145px;
         height: 50px;
         padding: 0;
         margin: 10px 0 0 0 !important;
@@ -974,7 +974,7 @@ footer{
     }
     
     .warring_for_user{
-        width: 130px;
+        width: 145px;
         order: 1;
         padding: 0;
         margin: 30px 0 0 0;
@@ -987,14 +987,14 @@ footer{
     }
     
     .question_button{
-        width: 130px;
+        width: 145px;
         font-size: 12px;
         margin: 10px 0 0 0;
         padding: 0;
     }
     
     .warring_for_user_footer{
-        width: 130px;
+        width: 145px;
         order: 1;
         margin: 30px 0 0 0;
         padding: 0 0 0 0;
@@ -1020,7 +1020,7 @@ footer{
     }
 
     .question{
-        padding-top: 100px;
+        padding-top: 50px;
     }
 
 
@@ -1197,7 +1197,7 @@ footer{
     }
 
     .question{
-        padding-top: 100px;
+        padding-top: 50px;
     }
 
 
@@ -1319,7 +1319,7 @@ footer{
     }
 
     .button_user_info{
-        width: 130px;
+        width: 180px;
         height: 50px;
         padding: 0;
         margin: 10px 0 0 0 !important;
@@ -1327,7 +1327,7 @@ footer{
     }
     
     .warring_for_user{
-        width: 130px;
+        width: 180px;
         order: 1;
         padding: 0;
         margin: 30px 0 0 0;
@@ -1340,14 +1340,14 @@ footer{
     }
     
     .question_button{
-        width: 130px;
+        width: 180px;
         font-size: 12px;
         margin: 10px 0 0 0;
         padding: 0;
     }
     
     .warring_for_user_footer{
-        width: 130px;
+        width: 180px;
         order: 1;
         margin: 30px 0 0 0;
         padding: 0 0 0 0;
@@ -1373,7 +1373,7 @@ footer{
     }
 
     .question{
-        padding-top: 100px;
+        padding-top: 50px;
     }
 
 
@@ -1438,8 +1438,7 @@ footer{
         margin: 0 0 50px 0;
     }
 }
-
-@media (min-width: 350px) and (max-width: 410px){
+@media (min-width: 350px) and (max-width: 369px){
     .nav_bar{
         display: none;
     }
@@ -1516,14 +1515,14 @@ footer{
     }
     
     .question_button{
-        width: 130px;
+        width: 150px;
         font-size: 12px;
         margin: 10px 0 0 0;
         padding: 0;
     }
     
     .warring_for_user_footer{
-        width: 130px;
+        width: 150px;
         order: 1;
         margin: 30px 0 0 0;
         padding: 0 0 0 0;
@@ -1549,7 +1548,182 @@ footer{
     }
 
     .question{
-        padding-top: 100px;
+        padding-top: 50px;
+    }
+
+
+    .lofts_general_block{
+        justify-content: center;
+    }
+    
+    .special_info_for_user{
+        padding: 60px 0;
+    }
+
+
+   .footer_block{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+   }
+
+   .footer_links:not(:nth-last-child(2)){
+       border-bottom: 2px solid #FFFFFF;
+       margin-top: 8px;
+       padding-bottom: 14px;
+   }
+
+   .footer_links:not(:nth-last-child(3)){
+    margin-top: 8px;
+    padding-bottom: 14px;
+    }
+
+   .footer_links_fourth{
+     border-top: 2px solid #FFFFFF;
+     margin-bottom: 15px;
+   }
+   
+   .footer_social_links{
+       margin: 0 auto;
+   }
+
+   .svg_header_logo{
+       width: 90%;
+   }
+
+   .under_header_main_info{
+       font-size: 40px;
+   }
+
+   .under_header_mouse_photo{
+       margin: 50px 0 100px 45%;
+   }
+
+   .under_header{
+    padding: 100px 0;
+    }
+
+    .flex_user_block{
+        display: block;
+    }
+
+    .we_on_map_txt{
+        margin: 0 0 50px 0;
+    }
+}
+@media (min-width: 370px) and (max-width: 410px){
+    .nav_bar{
+        display: none;
+    }
+
+    .special_info_481{
+        display: flex;
+    }
+
+    .second_block{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .our_second_block{
+        margin-bottom: 50px;
+    }
+
+    .our_second_block:nth-child(4){
+        margin: 0;
+    }
+
+    .our_flats_txt{
+        text-align: center;
+    }   
+
+    .header_links{
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+        line-height: 14px;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+        padding: 0 16px;
+    }
+
+    .wrapper_second_block{
+        padding: 36px 16px 20px 16px;
+    }
+
+    .our_flats{
+        padding: 60px 0;
+    }
+
+    .lofts_general_block{
+        justify-content: none;
+    }
+
+    .img_loft{
+        width: 100%;
+    }
+
+    .block_of_img_loft{
+        padding-bottom: 90px;
+    }
+
+    .button_user_info{
+        width: 160px;
+        height: 50px;
+        padding: 0;
+        margin: 10px 0 0 0 !important;
+        font-size: 12px;
+    }
+    
+    .warring_for_user{
+        width: 160px;
+        order: 1;
+        padding: 0;
+        margin: 30px 0 0 0;
+        font-size: 12px;
+    }
+    
+    .flex_buttons_for_user{
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .question_button{
+        width: 160px;
+        font-size: 12px;
+        margin: 10px 0 0 0;
+        padding: 0;
+    }
+    
+    .warring_for_user_footer{
+        width: 160px;
+        order: 1;
+        margin: 30px 0 0 0;
+        padding: 0 0 0 0;
+        font-size: 12px;
+    }
+    
+    .question_flex{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+   }
+
+    .txt_in_user_block{
+        max-width: 100%;
+        margin-bottom: 40px;
+        text-align: justify;
+        word-spacing: none;
+    }
+
+    iframe{
+        height: 350px;
+    }
+
+    .question{
+        padding-top: 50px;
     }
 
 
