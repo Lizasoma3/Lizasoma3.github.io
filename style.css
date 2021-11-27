@@ -1,0 +1,1256 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,100;1,400&family=Playfair+Display:wght@400;500;600;700;800&family=Raleway:wght@100;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+body{
+    background-color:  #242B33;
+}
+
+.wrapper{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.header_main{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header{
+    background-image: url(assets/header_background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header_links{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    padding: 0 24px;
+    opacity: 1;
+    transition: opacity 0.3s linear !important;
+}
+
+.special_info_481{
+    display: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header_links:hover{
+    opacity: .7;
+}
+
+.under_header{
+    padding-top: 200px;
+    max-width: 556px;
+    margin: 0 auto;
+}
+
+.under_header_main_info{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #D4C17F;
+}
+
+.under_header_mouse_photo{
+    margin-top: 100px; 
+    margin-bottom: 200px;
+    text-align: center;
+    margin-left: 45%;
+}
+
+.under_header_flex_info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.under_header_adress_block, .under_header_number_block{
+  display: flex;
+  column-gap: 14px;
+}
+
+.under_header_adress_info, .under_header_number_info{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+/*==================================SECOND_BLOCK=============*/
+
+.wrapper_second_block{
+    max-width: 794px;
+    margin: 0 auto;
+    padding: 194px 16px 120px 16px;
+}
+
+.second_block{
+   display: flex;
+   justify-content: space-between;
+}
+
+.our_second_block{
+  text-align: center;
+  width: 187px;
+  height: 193px;
+
+}
+
+.description_for_photo_second_block{
+    margin-top: 28px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 193px;
+}
+
+
+/*=========================OUR___FLATS=======================*/
+
+
+.our_flats{
+    padding-top: 120px;
+}
+
+.our_flats_txt{
+    margin-bottom: 100px;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    color: #D4C17F;
+}
+
+.lofts_general_block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.block_of_img_loft{
+    cursor: pointer;
+    padding-bottom: 80px;
+    transition: all 0.2s linear !important;
+}
+
+
+.img_loft{
+    max-width: 520px;
+}
+
+.img_loft_first_txt{
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-top: -80px;
+    margin-left: 50px;
+}
+
+
+.block_of_img_loft:hover{
+    transform: scale(1.04, 1.04);
+}
+
+
+/*========================================FOR_USERS==========*/
+
+main{
+    background-image: url(assets/background_for_users.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.special_info_for_user{
+    padding: 180px 0;
+}
+
+.txt_for_user{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    color: #D4C17F;
+    margin-bottom: 50px;
+}
+
+.flex_user_block{
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 30px;
+    flex-wrap: nowrap;
+}
+
+.txt_in_user_block{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    max-width: 520px;
+}
+
+.flex_buttons_for_user{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.button_user_info{
+    cursor: pointer;
+    width: 248px;
+    height: 50px;
+    margin-bottom: 20px;
+    background: #ffffff31;
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    transition: all 0.3s linear !important;
+}
+
+.button_user_info:nth-child(even){
+    margin-left: 15px;
+}
+
+.button_user_info:hover{
+    background: #D4C17F;
+}
+
+.warring_for_user, .warring_for_user_footer{
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    color: #E7E7E7;
+    width: 248px;
+    font-weight: 700;
+}
+
+/*=======================WE_ON_MAP===================*/
+
+.we_on_map_txt{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    color: #D4C17F;
+    margin-bottom: 100px;
+}
+
+/*==============================QUESTIONS=======*/
+
+.question{
+    padding-top: 180px;
+}
+.do_you_have_questions{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    color: #D4C17F;
+    margin-bottom: 60px;
+}
+
+.question_flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.question_button{
+    cursor: pointer;
+    width: 248px;
+    height: 50px;
+    margin-bottom: 20px;
+    background: #ffffff31;
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    transition: all 0.3s linear !important;
+}
+
+.question_button:hover{
+    background: #D4C17F;
+}
+
+/*===============FOOTER===============*/
+
+footer{
+    margin-top: 80px;
+    background-color: #2D343C;
+    padding: 45px 0;
+}
+
+.footer_block{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_links{
+    max-width: 139px;
+}
+
+.footer_links_fourth{
+    max-width: 245px;
+}
+
+.footer_link_self{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-top: 15px;
+    opacity: .7;
+    transition: all 0.3s linear !important;
+}
+
+.footer_link_self:hover{
+    opacity: 1;
+}
+
+.footer_social_links{
+    max-width: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+
+    .img_loft{
+        width: 480px;
+    }
+
+    .button_user_info{
+        width: 208px;
+        height: 50px;
+    }
+    
+    .warring_for_user{
+        width: 208px;
+    }
+    
+    
+}
+
+@media (min-width: 792px) and (max-width: 1023px) {
+
+    .our_flats_txt{
+        text-align: center;
+    }
+
+    .header_links{
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+        line-height: 14px;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+        padding: 0 16px;
+    }
+
+    .lofts_general_block{
+        justify-content: none;
+    }
+
+    .img_loft{
+        width: 355px;
+    }
+
+    .button_user_info{
+        width: 165px;
+        height: 50px;
+    }
+    
+    .warring_for_user{
+        width: 165px;
+    }
+    
+    .txt_in_user_block{
+        max-width: 350px;
+    }
+
+    iframe{
+        height: 350px;
+    }
+
+    .question{
+        padding-top: 100px;
+    }
+
+    .question_button{
+        width: 160px;
+        font-size: 14px;
+    }
+
+    .warring_for_user_footer{
+        width: 210px;
+    }
+
+    .lofts_general_block{
+        justify-content: center;
+    }
+
+    .img_loft:nth-child(odd){
+        margin-left: 25px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 791px){
+
+    .our_flats_txt{
+        text-align: center;
+    }
+
+    .header_links{
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+        line-height: 14px;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+        padding: 0 16px;
+    }
+
+    .lofts_general_block{
+        justify-content: none;
+    }
+
+    .img_loft{
+        width: 330px;
+    }
+
+    .button_user_info{
+        width: 165px;
+        height: 50px;
+    }
+    
+    .warring_for_user{
+        width: 165px;
+    }
+    
+    .txt_in_user_block{
+        max-width: 350px;
+    }
+
+    iframe{
+        height: 350px;
+    }
+
+    .question{
+        padding-top: 100px;
+    }
+
+    .question_button{
+        width: 160px;
+        font-size: 14px;
+    }
+
+    .warring_for_user_footer{
+        width: 210px;
+    }
+
+    .lofts_general_block{
+        justify-content: center;
+    }
+
+    .img_loft{
+        margin: 0;
+    }
+
+    .img_loft1{
+        margin-right: 40px;
+    }
+}
+
+
+@media (min-width: 710px) and (max-width: 767px) {
+    
+    .nav_bar{
+        display: none;
+    }
+
+    .special_info_481{
+        display: flex;
+    }
+
+    .second_block{
+        flex-wrap: wrap;
+    }
+    
+    .our_second_block{
+        margin-bottom: 30px;
+    }
+    
+    .our_second_block:nth-child(4){
+        margin: 0;
+    }
+
+    .our_flats_txt{
+        text-align: center;
+    }   
+    
+    .header_links{
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+        line-height: 14px;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+        padding: 0 16px;
+    }
+
+    .wrapper_second_block{
+        padding: 124px 16px 60px 16px;
+    }
+    
+    .our_flats{
+        padding: 60px 0;
+    }
+    
+    .lofts_general_block{
+        justify-content: none;
+    }
+
+    .img_loft{
+        width: 100%;
+    }
+
+    .block_of_img_loft{
+        padding-bottom: 90px;
+    }
+    
+    .button_user_info{
+        width: 165px;
+        height: 50px;
+        padding: 0;
+        margin: 0 0 0 15px;
+    }
+    
+    .warring_for_user{
+        width: 165px;
+        order: 1;
+        padding: 0;
+        margin: 0 0 0 15px;
+    }
+    
+    .flex_buttons_for_user{
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .txt_in_user_block{
+        max-width: 350px;
+    }
+    
+    iframe{
+        height: 350px;
+    }
+    
+    .question{
+        padding-top: 100px;
+    }
+
+    .question_button{
+        width: 160px;
+        font-size: 14px;
+        margin: 0 0 15px 0;
+        padding: 0 0 0 0;
+    }
+
+    .warring_for_user_footer{
+        width: 160px;
+        order: 1;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+    }
+
+    .lofts_general_block{
+        justify-content: center;
+    }
+    
+    .special_info_for_user{
+        padding: 60px 0;
+    }
+    
+    .question_flex{
+        flex-wrap: wrap;
+   }
+
+   .footer_block{
+       flex-wrap: wrap;
+    }
+    
+    
+}
+
+@media (min-width: 481px) and (max-width: 709px){
+
+        .nav_bar{
+            display: none;
+        }
+    
+        .special_info_481{
+            display: flex;
+        }
+    
+        .second_block{
+            flex-wrap: wrap;
+        }
+    
+        .our_second_block{
+            margin-bottom: 50px;
+        }
+    
+        .our_second_block:nth-child(4){
+            margin: 0;
+        }
+    
+        .our_flats_txt{
+            text-align: center;
+        }   
+    
+        .header_links{
+            font-family: 'Raleway', sans-serif;
+            font-size: 14px;
+            line-height: 14px;
+            letter-spacing: 0.05em;
+            color: #FFFFFF;
+            padding: 0 16px;
+        }
+    
+        .wrapper_second_block{
+            padding: 124px 16px 60px 16px;
+        }
+    
+        .our_flats{
+            padding: 60px 0;
+        }
+    
+        .lofts_general_block{
+            justify-content: none;
+        }
+    
+        .img_loft{
+            width: 100%;
+        }
+    
+        .block_of_img_loft{
+            padding-bottom: 90px;
+        }
+    
+        .button_user_info{
+            width: 165px;
+            height: 50px;
+            padding: 0;
+            margin: 0 0 0 15px;
+        }
+        
+        .warring_for_user{
+            width: 165px;
+            order: 1;
+            padding: 0;
+            margin: 0 0 0 15px;
+        }
+        
+        .flex_buttons_for_user{
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .txt_in_user_block{
+            max-width: 350px;
+        }
+    
+        iframe{
+            height: 350px;
+        }
+    
+        .question{
+            padding-top: 100px;
+        }
+    
+        .question_button{
+            width: 160px;
+            font-size: 14px;
+            margin: 0 0 15px 0;
+            padding: 0 0 0 0;
+        }
+    
+        .warring_for_user_footer{
+            width: 160px;
+            order: 1;
+            margin: 0 0 0 0;
+            padding: 0 0 0 0;
+        }
+    
+        .lofts_general_block{
+            justify-content: center;
+        }
+        
+        .special_info_for_user{
+            padding: 60px 0;
+        }
+    
+        .question_flex{
+            flex-wrap: wrap;
+       }
+    
+       .footer_block{
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+           text-align: center;
+       }
+
+       .footer_links:not(:nth-last-child(2)){
+           border-bottom: 2px solid #FFFFFF;
+           margin-top: 8px;
+           padding-bottom: 14px;
+       }
+
+       .footer_links:not(:nth-last-child(3)){
+        margin-top: 8px;
+        padding-bottom: 14px;
+    }
+
+       .footer_links_fourth{
+         border-top: 2px solid #FFFFFF;
+         margin-bottom: 15px;
+       }
+       
+       .footer_social_links{
+           margin: 0 auto;
+       }
+    
+}
+
+@media (min-width: 425px) and (max-width: 480px){
+
+    .nav_bar{
+        display: none;
+    }
+
+    .special_info_481{
+        display: flex;
+    }
+
+    .second_block{
+        flex-wrap: wrap;
+    }
+
+    .our_second_block{
+        margin-bottom: 50px;
+    }
+
+    .our_second_block:nth-child(4){
+        margin: 0;
+    }
+
+    .our_flats_txt{
+        text-align: center;
+    }   
+
+    .header_links{
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+        line-height: 14px;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+        padding: 0 16px;
+    }
+
+    .wrapper_second_block{
+        padding: 124px 16px 60px 16px;
+    }
+
+    .our_flats{
+        padding: 60px 0;
+    }
+
+    .lofts_general_block{
+        justify-content: none;
+    }
+
+    .img_loft{
+        width: 100%;
+    }
+
+    .block_of_img_loft{
+        padding-bottom: 90px;
+    }
+
+    .button_user_info{
+        width: 165px;
+        height: 50px;
+        padding: 0;
+        margin: 0 0 0 15px;
+    }
+    
+    .warring_for_user{
+        width: 165px;
+        order: 1;
+        padding: 0;
+        margin: 0 0 0 15px;
+    }
+    
+    .flex_buttons_for_user{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .txt_in_user_block{
+        max-width: 350px;
+    }
+
+    iframe{
+        height: 350px;
+    }
+
+    .question{
+        padding-top: 100px;
+    }
+
+    .question_button{
+        width: 160px;
+        font-size: 14px;
+        margin: 0 0 15px 0;
+        padding: 0 0 0 0;
+    }
+
+    .warring_for_user_footer{
+        width: 160px;
+        order: 1;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+    }
+
+    .lofts_general_block{
+        justify-content: center;
+    }
+    
+    .special_info_for_user{
+        padding: 60px 0;
+    }
+
+    .question_flex{
+        flex-wrap: wrap;
+   }
+
+   .footer_block{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+   }
+
+   .footer_links:not(:nth-last-child(2)){
+       border-bottom: 2px solid #FFFFFF;
+       margin-top: 8px;
+       padding-bottom: 14px;
+   }
+
+   .footer_links:not(:nth-last-child(3)){
+    margin-top: 8px;
+    padding-bottom: 14px;
+}
+
+   .footer_links_fourth{
+     border-top: 2px solid #FFFFFF;
+     margin-bottom: 15px;
+   }
+   
+   .footer_social_links{
+       margin: 0 auto;
+   }
+
+   .svg_header_logo{
+       width: 90%;
+   }
+
+   .under_header_main_info{
+       font-size: 40px;
+   }
+
+   .under_header_mouse_photo{
+       margin: 50px 0 100px 45%;
+   }
+
+   .under_header{
+    padding: 100px 0;
+}
+
+}
+
+@media (min-width: 326px) and (max-width: 424px){
+
+    .nav_bar{
+        display: none;
+    }
+
+    .special_info_481{
+        display: flex;
+    }
+
+    .second_block{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .our_second_block{
+        margin-bottom: 50px;
+    }
+
+    .our_second_block:nth-child(4){
+        margin: 0;
+    }
+
+    .our_flats_txt{
+        text-align: center;
+    }   
+
+    .header_links{
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+        line-height: 14px;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+        padding: 0 16px;
+    }
+
+    .wrapper_second_block{
+        padding: 36px 16px 20px 16px;
+    }
+
+    .our_flats{
+        padding: 60px 0;
+    }
+
+    .lofts_general_block{
+        justify-content: none;
+    }
+
+    .img_loft{
+        width: 100%;
+    }
+
+    .block_of_img_loft{
+        padding-bottom: 90px;
+    }
+
+    .button_user_info{
+        width: 130px;
+        height: 50px;
+        padding: 0;
+        margin: 10px 0 0 0 !important;
+        font-size: 12px;
+    }
+    
+    .warring_for_user{
+        width: 130px;
+        order: 1;
+        padding: 0;
+        margin: 30px 0 0 0;
+        font-size: 12px;
+    }
+    
+    .flex_buttons_for_user{
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .question_button{
+        width: 130px;
+        font-size: 12px;
+        margin: 10px 0 0 0;
+        padding: 0;
+    }
+    
+    .warring_for_user_footer{
+        width: 130px;
+        order: 1;
+        margin: 30px 0 0 0;
+        padding: 0 0 0 0;
+        font-size: 12px;
+    }
+    
+    .question_flex{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+   }
+
+    .txt_in_user_block{
+        max-width: 350px;
+        margin-bottom: 40px;
+        text-align: justify;
+        word-spacing: none;
+    }
+
+    iframe{
+        height: 350px;
+    }
+
+    .question{
+        padding-top: 100px;
+    }
+
+
+    .lofts_general_block{
+        justify-content: center;
+    }
+    
+    .special_info_for_user{
+        padding: 60px 0;
+    }
+
+
+   .footer_block{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+   }
+
+   .footer_links:not(:nth-last-child(2)){
+       border-bottom: 2px solid #FFFFFF;
+       margin-top: 8px;
+       padding-bottom: 14px;
+   }
+
+   .footer_links:not(:nth-last-child(3)){
+    margin-top: 8px;
+    padding-bottom: 14px;
+    }
+
+   .footer_links_fourth{
+     border-top: 2px solid #FFFFFF;
+     margin-bottom: 15px;
+   }
+   
+   .footer_social_links{
+       margin: 0 auto;
+   }
+
+   .svg_header_logo{
+       width: 90%;
+   }
+
+   .under_header_main_info{
+       font-size: 40px;
+   }
+
+   .under_header_mouse_photo{
+       margin: 50px 0 100px 45%;
+   }
+
+   .under_header{
+    padding: 100px 0;
+    }
+
+    .flex_user_block{
+        display: block;
+    }
+
+
+}
+
+@media (min-width: 320px) and (max-width: 325px){
+
+    .nav_bar{
+        display: none;
+    }
+
+    .special_info_481{
+        display: flex;
+    }
+
+    .second_block{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .our_second_block{
+        margin-bottom: 50px;
+    }
+
+    .our_second_block:nth-child(4){
+        margin: 0;
+    }
+
+    .our_flats_txt{
+        text-align: center;
+    }   
+
+    .header_links{
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+        line-height: 14px;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+        padding: 0 16px;
+    }
+
+    .wrapper_second_block{
+        padding: 36px 16px 20px 16px;
+    }
+
+    .our_flats{
+        padding: 60px 0;
+    }
+
+    .lofts_general_block{
+        justify-content: none;
+    }
+
+    .img_loft{
+        width: 100%;
+    }
+
+    .block_of_img_loft{
+        padding-bottom: 90px;
+    }
+
+    .button_user_info{
+        width: 130px;
+        height: 50px;
+        padding: 0;
+        margin: 10px 0 0 0 !important;
+        font-size: 12px;
+    }
+    
+    .warring_for_user{
+        width: 130px;
+        order: 1;
+        padding: 0;
+        margin: 30px 0 0 0;
+        font-size: 12px;
+    }
+    
+    .flex_buttons_for_user{
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .question_button{
+        width: 130px;
+        font-size: 12px;
+        margin: 10px 0 0 0;
+        padding: 0;
+    }
+    
+    .warring_for_user_footer{
+        width: 130px;
+        order: 1;
+        margin: 30px 0 0 0;
+        padding: 0 0 0 0;
+        font-size: 12px;
+    }
+    
+    .question_flex{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+   }
+
+    .txt_in_user_block{
+        max-width: 350px;
+        margin-bottom: 40px;
+        text-align: justify;
+        word-spacing: none;
+    }
+
+    iframe{
+        height: 350px;
+    }
+
+    .question{
+        padding-top: 100px;
+    }
+
+
+    .lofts_general_block{
+        justify-content: center;
+    }
+    
+    .special_info_for_user{
+        padding: 60px 0;
+    }
+
+
+   .footer_block{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+   }
+
+   .footer_links:not(:nth-last-child(2)){
+       border-bottom: 2px solid #FFFFFF;
+       margin-top: 8px;
+       padding-bottom: 14px;
+   }
+
+   .footer_links:not(:nth-last-child(3)){
+    margin-top: 8px;
+    padding-bottom: 14px;
+    }
+
+   .footer_links_fourth{
+     border-top: 2px solid #FFFFFF;
+     margin-bottom: 15px;
+   }
+   
+   .footer_social_links{
+       margin: 0 auto;
+   }
+
+   .svg_header_logo{
+       width: 90%;
+   }
+
+   .under_header_main_info{
+       font-size: 40px;
+   }
+
+   .under_header_mouse_photo{
+       margin: 50px 0 100px 45%;
+   }
+
+   .under_header{
+    padding: 100px 0;
+    }
+
+    .flex_user_block{
+        display: block;
+    }
+
+
+}
