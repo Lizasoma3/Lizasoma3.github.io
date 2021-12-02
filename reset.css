@@ -100,10 +100,10 @@ html, body {
   scrollbar-width: 8px;
 }
 
-*, html{
-  scroll-behavior: smooth;
-}
-
 input, select{
   outline: none;
+}
+
+*, html{
+  scroll-behavior: smooth;
 }
